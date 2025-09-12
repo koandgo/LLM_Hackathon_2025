@@ -1,6 +1,6 @@
 # LLM Hackathon 2025 — Speech→ELN Pipeline
 
- - **Turn lab talk into lab records.** This prototype converts raw speech into **structured electronic lab notebook (ELN)** entries using LLMs—accelerating documentation for materials & chemistry workflows.
+ - **Turn audio descriptions of experimental work into lab records.** This prototype converts raw speech into **structured electronic lab notebook (ELN)** entries using automated speech recognition and LLMs—accelerating documentation for materials & chemistry workflows.
 
 > Built fast for exploration. Aiming for impact in materials/chemistry through better capture, structure, and reuse of experimental knowledge.
 
@@ -8,7 +8,7 @@
 
 ## Why this matters
 
-- **Potential for Impact (Mat/Chem):** Automates tedious record-keeping so researchers can iterate faster; unlocks downstream search/RAG over experiments.  
+- **Potential for Impact (Mat/Chem):** Automates tedious record-keeping so researchers can document faster; unlocks downstream search/RAG over experiments.  
 - **Innovativeness & Novelty:** Speech→LLM→ELN pipeline with normalized, template-aligned outputs suitable for eLab-style archives.  
 - **Relevance:** Tailored to **materials & chemistry** notebooks (masses, volumes, conditions, observations, timelines).  
 
@@ -51,18 +51,9 @@ pip install jupyter pandas numpy python-dateutil
 
 1. Open **`txt_to_eln_wrapper.ipynb`**.  
 2. Paste your **audio file** into the input cell.  
-3. Run the notebook to generate **structured HTML** (and optional JSON) you can save into your ELN.
+3. Run the notebook to generate **.eln** file to upload to web interface.
 
 > Tip: keep short example transcripts handy for quick demos.
-
----
-
-## Demo data & examples
-
-- Use a short example transcript (e.g., weighing reagents, solvent volumes, temperature ramps).  
-- Show before/after: free-form text → clean ELN HTML table.  
-- Save the HTML snippet into your ELN to prove integration.
-
 ---
 
 ## Contributing
