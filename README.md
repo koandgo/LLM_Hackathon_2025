@@ -38,19 +38,14 @@
 
 ### 1) Environment
 
-- Python 3.10+  
-- Jupyter (Lab or Notebook)
-
-Recommended baseline packages (adjust as you evolve):
-```bash
-pip install jupyter pandas numpy python-dateutil
-# Add your model/API stack here (e.g., openai/anthropic/whatever you use for LLM calls)
+- Google Colaboratory
+- Run first cell to install package requirements
 ```
 
 ### 2) Run the wrapper
 
 1. Open **`txt_to_eln_wrapper.ipynb`**.  
-2. Paste your **audio file** into the input cell.  
+2. Upload your **audio file** to your google drive, and select file when prompted by script. 
 3. Run the notebook to generate **.eln** file to upload to web interface.
 
 > Tip: keep short example transcripts handy for quick demos.
@@ -62,12 +57,6 @@ PRs welcome—especially:
 - small utilities (date/number normalizers),
 - schema mappers for common materials/chem sections,
 - exporters (eLabFTW, Benchling-style HTML, CSV).
-
----
-
-## License
-
-_No license file is present yet—add one when ready._
 
 ---
 
