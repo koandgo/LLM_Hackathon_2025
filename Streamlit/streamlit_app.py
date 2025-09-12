@@ -129,7 +129,7 @@ def rewrite_asr_cells_for_streamlit(nb, audio_var_name="AUDIO_FILE", require_ope
             ("asrmodel.from_pretrained" in sl) or
             ("files.upload(" in sl) or
             ("parakeet-tdt" in sl)
-        ):
+            ):
             asr_hit = True
             if force or disable_nemo:
             asr_hit = True
