@@ -41,7 +41,7 @@
 - Google Colaboratory
 - Run first cell to install package requirements
 ```
-
+---
 ### 2) Run the wrapper
 
 1. Open **`txt_to_eln_wrapper.ipynb`**.  
