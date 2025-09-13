@@ -47,7 +47,6 @@
 2. Upload your **audio file** to your google drive, and select file when prompted by script. 
 3. Run the notebook to generate **.eln** file to upload to web interface.
 
-> Tip: keep short example transcripts handy for quick demos.
 ---
 
 ## Contributing
